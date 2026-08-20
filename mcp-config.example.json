@@ -1,9 +1,9 @@
 {
   "mcpServers": {
-    "ds-autocontinue": {
+    "autocontinue": {
       "command": "python",
       "args": [
-        "/absolute/path/to/ds-autocontinue-mcp/server.py"
+        "/absolute/path/to/autocontinue-mcp/server.py"
       ],
       "env": {
         "AC_KEYWORDS": "继续,继续生成,继续回复",

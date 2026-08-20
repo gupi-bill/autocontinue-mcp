@@ -1,6 +1,6 @@
 """
-ds-autocontinue-mcp — Infinite "Continue" Clicker MCP Server
-无限续写监工：自动点击 AI 网页（DeepSeek 等）上的「继续」按钮，
+autocontinue-mcp — 无限续写监工 MCP Server
+无限续写监工：自动点击任意 AI 网页上中断后弹出的「继续」按钮，
 让被中断的长生成自动续写，循环盯死，像监工一样。
 
 Stack: FastMCP + pyautogui + rapidocr-onnxruntime
@@ -22,7 +22,7 @@ import tempfile
 
 from mcp.server.fastmcp import FastMCP
 
-mcp = FastMCP("ds-autocontinue")
+mcp = FastMCP("autocontinue")
 
 STATE = {
     "running": False,

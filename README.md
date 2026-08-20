@@ -1,10 +1,21 @@
-# ds-autocontinue-mcp
+# autocontinue-mcp
 
-**无限续写监工** —— 一个 MCP Server，让 AI 网页（DeepSeek 等）被中断的长生成自动续写。
+**无限续写监工** —— 一个 MCP Server，让任意 AI 网页被中断的长生成自动续写。
 
-当你让某个网页 AI 跑一段很长的任务，它经常会因为「生成被中断 / 请点继续」而卡住。这个工具在后台循环盯屏：每几秒截一次图 → 中文 OCR 认出独立的「继续」按钮 → 自动点它，循环不断，像监工一样替你续上，解放双手。
+当你让某个网页 AI 跑一段很长的任务，它经常会因为「生成被中断 / 请点继续」而卡住。这个工具在后台循环盯屏：每几秒截一次图 → OCR 认出独立的「继续」按钮 → 自动点它，循环不断，像监工一样替你续上，解放双手。
 
-> 不只限于 DeepSeek：通过环境变量配置按钮文字，可适配任意会弹出「继续 / 继续生成 / Resume」类按钮的网页或应用。
+> 完全通用：通过环境变量配置按钮文字，可适配任意会弹出「继续 / 继续生成 / Resume / Continue」类按钮的网页或应用，不绑定任何特定平台。
+
+---
+
+## 特性
+
+- 🔁 **无限续写**：AI 网页一中断就自动点「继续」，循环盯死，长任务不断档
+- 🌐 **完全通用**：默认适配中文「继续」类按钮，改 `AC_KEYWORDS` 即可适配英文（Resume / Continue）或任意文字
+- 🎯 **精准识别**：只认独立的短按钮，自动过滤正文里的「继续读取…」等长句误命中
+- 🖥️ **跨平台**：Windows / macOS / Linux 均可（权限配置见下）
+- 🛡️ **安全可控**：仅在主动 `start` 后动作；鼠标甩屏幕左上角即可紧急停止；不碰你的文件
+- ⚙️ **零大模型依赖**：纯 pyautogui + OCR，不涉及任何 LLM / 向量 / 云端
 
 ---
 
@@ -13,13 +24,13 @@
 ```
 循环（每 interval 秒）:
   1. 全屏（或指定区域）截图，存系统临时目录
-  2. rapidocr 中文 OCR 识别屏幕文字
+  2. OCR 识别屏幕文字
   3. 只认「独立的短按钮」（如「继续」「继续生成」），过滤正文里的长句（如"继续读取关键文件"）
   4. 命中 → 点击按钮中心；未命中 → 静默等待下一轮
   直到你调用 stop，或把鼠标甩到屏幕左上角紧急停止
 ```
 
-`pyautogui` 和 `rapidocr` 均为**延迟导入**，在无桌面环境（如纯服务器）上也能正常加载 Server，只是无法真正点击。
+`pyautogui` 和 OCR 引擎均为**延迟导入**，在无桌面环境（如纯服务器）上也能正常加载 Server，只是无法真正点击。
 
 ---
 
@@ -28,14 +39,14 @@
 需要 Python 3.10+。
 
 ```bash
-git clone https://github.com/<你的用户名>/ds-autocontinue-mcp.git
-cd ds-autocontinue-mcp
+git clone https://github.com/<你的用户名>/autocontinue-mcp.git
+cd autocontinue-mcp
 python -m venv .venv
 source .venv/bin/activate        # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-> 首次运行会自动下载 rapidocr 的 OCR 模型（约几十 MB），请保持联网。
+> 首次运行会自动下载 OCR 模型（约几十 MB），请保持联网。
 
 ---
 
@@ -46,9 +57,9 @@ pip install -r requirements.txt
 ```json
 {
   "mcpServers": {
-    "ds-autocontinue": {
+    "autocontinue": {
       "command": "python",
-      "args": ["/absolute/path/to/ds-autocontinue-mcp/server.py"],
+      "args": ["/absolute/path/to/autocontinue-mcp/server.py"],
       "env": {
         "AC_KEYWORDS": "继续,继续生成,继续回复",
         "AC_INTERVAL": "5"
