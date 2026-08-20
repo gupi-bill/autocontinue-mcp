@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Screenshots / temp (never commit)
+*.png
+ac_shot_*.png
+
+# Local config / secrets
+.env
+.mcp.local.json
+
+# OS
+.DS_Store
+Thumbs.db
