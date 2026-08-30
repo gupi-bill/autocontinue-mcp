@@ -3,6 +3,7 @@ __pycache__/
 *.py[cod]
 *.egg-info/
 .eggs/
+*.log
 
 # Virtual environments
 .venv/
@@ -10,13 +11,21 @@ venv/
 env/
 
 # Screenshots / temp (never commit)
-*.png
 ac_shot_*.png
 
 # Local config / secrets
 .env
 .mcp.local.json
+*.db
+*.db-shm
+*.db-wal
 
 # OS
 .DS_Store
 Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
