@@ -16,9 +16,9 @@ pyautogui / rapidocr 延迟导入，无桌面环境也能加载（只是无法�
 安全：pyautogui FAILSAFE 开启 —— 把鼠标急甩到屏幕左上角即可紧急停止。
 """
 import os
+import tempfile
 import threading
 import time
-import tempfile
 
 from mcp.server.fastmcp import FastMCP
 
@@ -159,7 +159,7 @@ def autocontinue_start(interval: float = 5.0) -> str:
         STATE["thread"].start()
     try:
         _get_ocr()  # 预热 OCR 模型（首次较慢）
-    except Exception as e:  # noqa: BLE001
+    except Exception as e:
         return f"已启动但 OCR 预热失败：{e}"
     return f"无限续写监工已启动，每 {iv} 秒扫描一次。AI 网页一停就自动点继续。"
 

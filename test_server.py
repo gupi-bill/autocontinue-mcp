@@ -1,6 +1,6 @@
 """autocontinue-mcp 基础单元测试。"""
 import os
-from unittest.mock import patch, MagicMock
+from unittest.mock import MagicMock, patch
 
 
 def test_keywords_parsing():
@@ -18,6 +18,7 @@ def test_is_btn_basic():
     os.environ["AC_KEYWORDS"] = "continue,resume"
     # Re-import to pick up new env
     import importlib
+
     import server
     importlib.reload(server)
 
@@ -32,6 +33,7 @@ def test_region_parsing():
     """扫描区域解析。"""
     os.environ.pop("AC_REGION", None)
     import importlib
+
     import server
     importlib.reload(server)
 
@@ -64,11 +66,10 @@ def test_loop_start_stop():
     import server
     assert server.STATE["running"] is False
 
-    with patch("server._get_ocr"):
-        with patch("server._loop") as mock_loop:
-            result = server.autocontinue_start(interval=1.0)
-            assert "已启动" in result
-            mock_loop.assert_called_once()
+    with patch("server._get_ocr"), patch("server._loop") as mock_loop:
+        result = server.autocontinue_start(interval=1.0)
+        assert "已启动" in result
+        mock_loop.assert_called_once()
 
     server.STATE["running"] = True
     result = server.autocontinue_stop()
