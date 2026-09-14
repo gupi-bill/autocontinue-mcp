@@ -1,1 +1,127 @@
-IyBhdXRvY29udGludWUtbWNwCgoqKuaXoOmZkOe7reWGmeebkeW3pSoqIOKAlOKAlCDkuIDkuKogTUNQIFNlcnZlcu+8jOiuqeS7u+aEjyBBSSDnvZHpobXooqvkuK3mlq3nmoTplb/nlJ/miJDoh6rliqjnu63lhpnjgIIKCuW9k+S9oOiuqeafkOS4que9kemhtSBBSSDot5HkuIDmrrXlvojplb/nmoTku7vliqHvvIzlroPnu4/luLjkvJrlm6DkuLrjgIznlJ/miJDooqvkuK3mlq0gLyDor7fngrnnu6fnu63jgI3ogIzljaHkvY/jgILov5nkuKrlt6XlhbflnKjlkI7lj7Dlvqrnjq/nm6/lsY/vvJrmr4/lh6Dnp5LmiKrkuIDmrKHlm74g4oaSIE9DUiDorqTlh7rni6znq4vnmoTjgIznu6fnu63jgI3mjInpkq4g4oaSIOiHquWKqOeCueWug++8jOW+queOr+S4jeaWre+8jOWDj+ebkeW3peS4gOagt+abv+S9oOe7reS4iu+8jOino+aUvuWPjOaJi+OAggoKPiDlrozlhajpgJrnlKjvvJrpgJrov4fnjq/looPlj5jph4/phY3nva7mjInpkq7mloflrZfvvIzlj6/pgILphY3ku7vmhI/kvJrlvLnlh7rjgIznu6fnu60gLyDnu6fnu63nlJ/miJAgLyBSZXN1bWUgLyBDb250aW51ZeOAjeexu+aMiemSrueahOe9kemhteaIluW6lOeUqO+8jOS4jee7keWumuS7u+S9leeJueWumuW5s+WPsOOAggoKLS0tCgojIyDnibnmgKcKCi0g8J+UgSAqKuaXoOmZkOe7reWGmSoq77yaQUkg572R6aG15LiA5Lit5pat5bCx6Ieq5Yqo54K544CM57un57ut44CN77yM5b6q546v55uv5q2777yM6ZW/5Lu75Yqh5LiN5pat5qGjCi0g8J+MkCAqKuWujOWFqOmAmueUqCoq77ya6buY6K6k6YCC6YWN5Lit5paH44CM57un57ut44CN57G75oyJ6ZKu77yM5pS5IGBBQ19LRVlXT1JEU2Ag5Y2z5Y+v6YCC6YWN6Iux5paH77yIUmVzdW1lIC8gQ29udGludWXvvInmiJbku7vmhI/mloflrZcKLSDwn46vICoq57K+5YeG6K+G5YirKirvvJrlj6rorqTni6znq4vnmoTnn63mjInpkq7vvIzoh6rliqjov4fmu6TmraPmlofph4znmoTjgIznu6fnu63or7vlj5bigKbjgI3nrYnplb/lj6Xor6/lkb3kuK0KLSDwn5al77iPICoq6Leo5bmz5Y+wKirvvJpXaW5kb3dzIC8gbWFjT1MgLyBMaW51eCDlnYflj6/vvIjmnYPpmZDphY3nva7op4HkuIvvvIkKLSDwn5uh77iPICoq5a6J5YWo5Y+v5o6nKirvvJrku4XlnKjkuLvliqggYHN0YXJ0YCDlkI7liqjkvZzvvJvpvKDmoIfnlKnlsY/luZXlt6bkuIrop5LljbPlj6/ntKfmgKXlgZzmraLvvJvkuI3norDkvaDnmoTmlofku7YKLSDimpnvuI8gKirpm7blpKfmqKHlnovkvp3otZYqKu+8mue6ryBweWF1dG9ndWkgKyBPQ1LvvIzkuI3mtonlj4rku7vkvZUgTExNIC8g5ZCR6YePIC8g5LqR56uvCgotLS0KCiMjIOWOn+eQhgoKYGBgCuW+queOr++8iOavjyBpbnRlcnZhbCDnp5LvvIk6CiAgMS4g5YWo5bGP77yI5oiW5oyH5a6a5Yy65Z+f77yJ5oiq5Zu+77yM5a2Y57O757uf5Li05pe255uu5b2VCiAgMi4gT0NSIOivhuWIq+Wxj+W5leaWh+WtlwogIDMuIOWPquiupOOAjOeLrOeri+eahOefreaMiemSruOAje+8iOWmguOAjOe7p+e7reOAjeOAjOe7p+e7reeUn+aIkOOAje+8ie+8jOi/h+a7pOato+aWh+mHjOeahOmVv+WPpe+8iOWmgiLnu6fnu63or7vlj5blhbPplK7mlofku7Yi77yJCiAgNC4g5ZG95LitIOKGkiDngrnlh7vmjInpkq7kuK3lv4PvvJvmnKrlkb3kuK0g4oaSIOmdmem7mOetieW+heS4i+S4gOi9rgogIOebtOWIsOS9oOiwg+eUqCBzdG9w77yM5oiW5oqK6byg5qCH55Sp5Yiw5bGP5bmV5bem5LiK6KeS57Sn5oCl5YGc5q2iCmBgYAoKYHB5YXV0b2d1aWAg5ZKMIE9DUiDlvJXmk47lnYfkuLoqKuW7tui/n+WvvOWFpSoq77yM5Zyo5peg5qGM6Z2i546v5aKD77yI5aaC57qv5pyN5Yqh5Zmo77yJ5LiK5Lmf6IO95q2j5bi45Yqg6L29IFNlcnZlcu+8jOWPquaYr+aXoOazleecn+ato+eCueWHu+OAggoKLS0tCgojIyDlronoo4UKCumcgOimgSBQeXRob24gMy4xMCvjgIIKCmBgYGJhc2gKZ2l0IGNsb25lIGh0dHBzOi8vZ2l0aHViLmNvbS885L2g55qE55So5oi35ZCNPi9hdXRvY29udGludWUtbWNwLmdpdApjZCBhdXRvY29udGludWUtbWNwCnB5dGhvbiAtbSB2ZW52IC52ZW52CnNvdXJjZSAudmVudi9iaW4vYWN0aXZhdGUgICAgICAgICMgV2luZG93czogLnZlbnZcU2NyaXB0c1xhY3RpdmF0ZQpwaXAgaW5zdGFsbCAtciByZXF1aXJlbWVudHMudHh0CmBgYAoKPiDpppbmrKHov5DooYzkvJroh6rliqjkuIvovb0gT0NSIOaooeWei++8iOe6puWHoOWNgSBNQu+8ie+8jOivt+S/neaMgeiBlOe9keOAggoKLS0tCgojIyDmjqXlhaUgTUNQIOWuouaIt+errwoK5oqK5LiL6Z2i6L+Z5q615Yqg6L+b5L2g55qEIE1DUCDphY3nva7mlofku7bvvIhXb3JrQnVkZHkgLyBDbGF1ZGUgRGVza3RvcCAvIOS7u+aEj+aUr+aMgSBzdGRpbyBNQ1Ag55qE5a6i5oi356uv77yJ44CC5rOo5oSP5oqKIGBhcmdzYCDph4znmoTot6/lvoTmjaLmiJDkvaDmnKzmnLrnmoQqKue7neWvuei3r+W+hCoq77yaCgpgYGBqc29uCnsKICAibWNwU2VydmVycyI6IHsKICAgICJhdXRvY29udGludWUiOiB7CiAgICAgICJjb21tYW5kIjogInB5dGhvbiIsCiAgICAgICJhcmdzIjogWyIvYWJzb2x1dGUvcGF0aC90by9hdXRvY29udGludWUtbWNwL3NlcnZlci5weSJdLAogICAgICAiZW52IjogewogICAgICAgICJBQ19LRVlXT1JEUyI6ICLnu6fnu60s57un57ut55Sf5oiQLOe7p+e7reWbnuWkjSIsCiAgICAgICAgIkFDX0lOVEVSVkFMIjogIjUiCiAgICAgIH0sCiAgICAgICJkaXNhYmxlZCI6IGZhbHNlCiAgICB9CiAgfQp9CmBgYAoK5pu05a6M5pW055qE56S65L6L6KeBIFtgbWNwLWNvbmZpZy5leGFtcGxlLmpzb25gXSguL21jcC1jb25maWcuZXhhbXBsZS5qc29uKeOAggoKLS0tCgojIyDlt6XlhbfliJfooagKCnwg5bel5YW3IHwg5L2c55SoIHwKfCAtLS0gfCAtLS0gfAp8IGBhdXRvY29udGludWVfc3RhcnQoaW50ZXJ2YWw9NS4wKWAgfCDlkK/liqjml6DpmZDnu63lhpnnm5Hlt6XvvIzlvqrnjq/miavmj4/lubboh6rliqjngrnjgIznu6fnu63jgI0gfAp8IGBhdXRvY29udGludWVfc3RvcCgpYCB8IOWBnOatouebkeW3pSB8CnwgYGF1dG9jb250aW51ZV9zdGF0dXMoKWAgfCDmn6XnnIvnirbmgIHvvJrmmK/lkKblnKjot5HjgIHmiavmj4/mrKHmlbDjgIHmnIDov5HliqjkvZzjgIHmnIDov5Hmo4DmtYvliLDnmoTmjInpkq4gfAp8IGBhdXRvY29udGludWVfc2Nhbl9vbmNlKClgIHwg5Y2V5qyh5omr5o+P5bm254K55Ye777yI5LiN6L+b5YWl5b6q546v77yJ77yM55So5LqO5omL5Yqo6K+V5o6iIHwKCi0tLQoKIyMg546v5aKD5Y+Y6YeP77yI5Z2H5Y+v6YCJ77yJCgp8IOWPmOmHjyB8IOm7mOiupCB8IOivtOaYjiB8CnwgLS0tIHwgLS0tIHwgLS0tIHwKfCBgQUNfS0VZV09SRFNgIHwgYOe7p+e7rSznu6fnu63nlJ/miJAs57un57ut5Zue5aSNYCB8IOimgeivhuWIq+eahOaMiemSruaWh+Wtl++8jOmAl+WPt+WIhumalCB8CnwgYEFDX0lOVEVSVkFMYCB8IGA1YCB8IOaJq+aPj+mXtOmalOenku+8iOS5n+WPr+eUqCBgc3RhcnRgIOeahCBgaW50ZXJ2YWxgIOWPguaVsOimhueblu+8iSB8CnwgYEFDX1JFR0lPTmAgfCDlhajlsY8gfCDmiavmj4/ljLrln58gYCJ4LHksdyxoImDvvIjnm7jlr7nlsY/luZXlt6bkuIrop5LvvInvvIznvKnlsI/ojIPlm7Tlj6/mj5DpgJ8gfAp8IGBBQ19NSU5fTEVOYCB8IGAyYCB8IOaMiemSruaWh+Wtl+acgOWwj+mVv+W6pui/h+a7pCB8CnwgYEFDX01BWF9MRU5gIHwgYDRgIHwg5oyJ6ZKu5paH5a2X5pyA5aSn6ZW/5bqm6L+H5ruk77yI6L+H5ruk5q2j5paH6ZW/5Y+l6K+v5ZG95Lit77yJIHwKCioq56S65L6LKiog4oCU4oCUIOmAgumFjeiLseaWh+e9kemhte+8iCJSZXN1bWUiIC8gIkNvbnRpbnVlIiDmjInpkq7vvInvvJoKCmBgYGpzb24KImVudiI6IHsgIkFDX0tFWVdPUkRTIjogIlJlc3VtZSxDb250aW51ZSznu6fnu60iLCAiQUNfSU5URVJWQUwiOiAiNCIgfQpgYGAKCi0tLQoKIyMg5a6J5YWo6aG755+lCgotICoq55yf5a6e6byg5qCH6ZSu55uY5pON5L2cID0g6auY5p2D6ZmQKirjgILmnKzlt6XlhbfkvJrnnJ/nmoTnp7vliqjlubbngrnlh7vkvaDnmoTpvKDmoIfvvIzor7flj6rlnKjlj6/kv6Hnjq/looPkvb/nlKjvvIzkuJTku4XlnKjkvaDkuLvliqggYHN0YXJ0YCDlkI7miY3kvJrliqjkvZzjgIIKLSAqKue0p+aApeWBnOatoioq77ya5oqK6byg5qCHKirlv6vpgJ/nlKnliLDlsY/luZXlt6bkuIrop5IqKuWNs+WPr+inpuWPkSBgcHlhdXRvZ3VpLkZBSUxTQUZFYO+8jOebkeW3peS8mueri+WIu+S4reatouOAggotICoq5LiN5Lya6K+75Y+WL+S/ruaUueS9oOeahOaWh+S7tioq77yM5Y+q5Lya5oiq5Zu+77yI5a2Y57O757uf5Li05pe255uu5b2V77yM55So5a6M5Y2z5Yig77yJ5bm254K55Ye744CCCi0g5bu66K6u5YWI55SoIGBhdXRvY29udGludWVfc2Nhbl9vbmNlKClgIOaJi+WKqOehruiupOiDveato+ehruivhuWIq+ebruagh+aMiemSru+8jOWGjeWQr+WKqOmVv+acn+ebkeW3peOAggoKLS0tCgojIyDlubPlj7DmlK/mjIEKCnwg5bmz5Y+wIHwg54q25oCBIHwKfCAtLS0gfCAtLS0gfAp8IFdpbmRvd3MgfCDinIUg5o6o6I2Q77yM5rWL6K+V5pyA5YWF5YiGIHwKfCBtYWNPUyB8IOKaoO+4jyDpnIDmjojkuojjgIzovoXliqnlip/og70gLyDlsY/luZXlvZXliLbjgI3mnYPpmZAgfAp8IExpbnV4IHwg4pqg77iPIOmcgCBYMTEg546v5aKDICsgYHNjcm90YC9geHdkYCDnrYnmiKrlm77lkI7nq68gfAoKLS0tCgojIyBMaWNlbnNlCgpNSVQK
+# autocontinue-mcp
+
+**无限续写监工** —— 一个 MCP Server，让任意 AI 网页被中断的长生成自动续写。
+
+当你让某个网页 AI 跑一段很长的任务，它经常会因为「生成被中断 / 请点继续」而卡住。这个工具在后台循环盯屏：每几秒截一次图 → OCR 认出独立的「继续」按钮 → 自动点它，循环不断，像监工一样替你续上，解放双手。
+
+> 完全通用：通过环境变量配置按钮文字，可适配任意会弹出「继续 / 继续生成 / Resume / Continue」类按钮的网页或应用，不绑定任何特定平台。
+
+---
+
+## 特性
+
+- 🔁 **无限续写**：AI 网页一中断就自动点「继续」，循环盯死，长任务不断档
+- 🌐 **完全通用**：默认适配中文「继续」类按钮，改 `AC_KEYWORDS` 即可适配英文（Resume / Continue）或任意文字
+- 🎯 **精准识别**：只认独立的短按钮，自动过滤正文里的「继续读取…」等长句误命中
+- 🖥️ **跨平台**：Windows / macOS / Linux 均可（权限配置见下）
+- 🛡️ **安全可控**：仅在主动 `start` 后动作；鼠标甩屏幕左上角即可紧急停止；不碰你的文件
+- ⚙️ **零大模型依赖**：纯 pyautogui + OCR，不涉及任何 LLM / 向量 / 云端
+
+---
+
+## 原理
+
+```
+循环（每 interval 秒）:
+  1. 全屏（或指定区域）截图，存系统临时目录
+  2. OCR 识别屏幕文字
+  3. 只认「独立的短按钮」（如「继续」「继续生成」），过滤正文里的长句（如"继续读取关键文件"）
+  4. 命中 → 点击按钮中心；未命中 → 静默等待下一轮
+  直到你调用 stop，或把鼠标甩到屏幕左上角紧急停止
+```
+
+`pyautogui` 和 OCR 引擎均为**延迟导入**，在无桌面环境（如纯服务器）上也能正常加载 Server，只是无法真正点击。
+
+---
+
+## 安装
+
+需要 Python 3.10+。
+
+```bash
+git clone https://github.com/<你的用户名>/autocontinue-mcp.git
+cd autocontinue-mcp
+python -m venv .venv
+source .venv/bin/activate        # Windows: .venv\Scripts\activate
+pip install -r requirements.txt
+```
+
+> 首次运行会自动下载 OCR 模型（约几十 MB），请保持联网。
+
+---
+
+## 接入 MCP 客户端
+
+把下面这段加进你的 MCP 配置文件（WorkBuddy / Claude Desktop / 任意支持 stdio MCP 的客户端）。注意把 `args` 里的路径换成你本机的**绝对路径**：
+
+```json
+{
+  "mcpServers": {
+    "autocontinue": {
+      "command": "python",
+      "args": ["/absolute/path/to/autocontinue-mcp/server.py"],
+      "env": {
+        "AC_KEYWORDS": "继续,继续生成,继续回复",
+        "AC_INTERVAL": "5"
+      },
+      "disabled": false
+    }
+  }
+}
+```
+
+更完整的示例见 [`mcp-config.example.json`](./mcp-config.example.json)。
+
+---
+
+## 工具列表
+
+| 工具 | 作用 |
+| --- | --- |
+| `autocontinue_start(interval=5.0)` | 启动无限续写监工，循环扫描并自动点「继续」 |
+| `autocontinue_stop()` | 停止监工 |
+| `autocontinue_status()` | 查看状态：是否在跑、扫描次数、最近动作、最近检测到的按钮 |
+| `autocontinue_scan_once()` | 单次扫描并点击（不进入循环），用于手动试探 |
+
+---
+
+## 环境变量（均可选）
+
+| 变量 | 默认 | 说明 |
+| --- | --- | --- |
+| `AC_KEYWORDS` | `继续,继续生成,继续回复` | 要识别的按钮文字，逗号分隔 |
+| `AC_INTERVAL` | `5` | 扫描间隔秒（也可用 `start` 的 `interval` 参数覆盖） |
+| `AC_REGION` | 全屏 | 扫描区域 `"x,y,w,h"`（相对屏幕左上角），缩小范围可提速 |
+| `AC_MIN_LEN` | `2` | 按钮文字最小长度过滤 |
+| `AC_MAX_LEN` | `4` | 按钮文字最大长度过滤（过滤正文长句误命中） |
+
+**示例** —— 适配英文网页（"Resume" / "Continue" 按钮）：
+
+```json
+"env": { "AC_KEYWORDS": "Resume,Continue,继续", "AC_INTERVAL": "4" }
+```
+
+---
+
+## 安全须知
+
+- **真实鼠标键盘操作 = 高权限**。本工具会真的移动并点击你的鼠标，请只在可信环境使用，且仅在你主动 `start` 后才会动作。
+- **紧急停止**：把鼠标**快速甩到屏幕左上角**即可触发 `pyautogui.FAILSAFE`，监工会立刻中止。
+- **不会读取/修改你的文件**，只会截图（存系统临时目录，用完即删）并点击。
+- 建议先用 `autocontinue_scan_once()` 手动确认能正确识别目标按钮，再启动长期监工。
+
+---
+
+## 平台支持
+
+| 平台 | 状态 |
+| --- | --- |
+| Windows | ✅ 推荐，测试最充分 |
+| macOS | ⚠️ 需授予「辅助功能 / 屏幕录制」权限 |
+| Linux | ⚠️ 需 X11 环境 + `scrot`/`xwd` 等截图后端 |
+
+---
+
+## License
+
+MIT

@@ -1,1 +1,15 @@
-ewogICJtY3BTZXJ2ZXJzIjogewogICAgImF1dG9jb250aW51ZSI6IHsKICAgICAgImNvbW1hbmQiOiAicHl0aG9uIiwKICAgICAgImFyZ3MiOiBbCiAgICAgICAgIi9hYnNvbHV0ZS9wYXRoL3RvL2F1dG9jb250aW51ZS1tY3Avc2VydmVyLnB5IgogICAgICBdLAogICAgICAiZW52IjogewogICAgICAgICJBQ19LRVlXT1JEUyI6ICLnu6fnu60s57un57ut55Sf5oiQLOe7p+e7reWbnuWkjSIsCiAgICAgICAgIkFDX0lOVEVSVkFMIjogIjUiCiAgICAgIH0sCiAgICAgICJkaXNhYmxlZCI6IGZhbHNlCiAgICB9CiAgfQp9Cg==
+{
+  "mcpServers": {
+    "autocontinue": {
+      "command": "python",
+      "args": [
+        "/absolute/path/to/autocontinue-mcp/server.py"
+      ],
+      "env": {
+        "AC_KEYWORDS": "继续,继续生成,继续回复",
+        "AC_INTERVAL": "5"
+      },
+      "disabled": false
+    }
+  }
+}

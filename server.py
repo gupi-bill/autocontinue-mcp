@@ -1,1 +1,203 @@
-IiIiCmF1dG9jb250aW51ZS1tY3Ag4oCUIOaXoOmZkOe7reWGmeebkeW3pSBNQ1AgU2VydmVyCuaXoOmZkOe7reWGmeebkeW3pe+8muiHquWKqOeCueWHu+S7u+aEjyBBSSDnvZHpobXkuIrkuK3mlq3lkI7lvLnlh7rnmoTjgIznu6fnu63jgI3mjInpkq7vvIwK6K6p6KKr5Lit5pat55qE6ZW/55Sf5oiQ6Ieq5Yqo57ut5YaZ77yM5b6q546v55uv5q2777yM5YOP55uR5bel5LiA5qC344CCCgpTdGFjazogRmFzdE1DUCArIHB5YXV0b2d1aSArIHJhcGlkb2NyLW9ubnhydW50aW1lCnB5YXV0b2d1aSAvIHJhcGlkb2NyIOW7tui/n+WvvOWFpe+8jOaXoOahjOmdoueOr+Wig+S5n+iDveWKoOi9ve+8iOWPquaYr+aXoOazleecn+ato+eCueWHu++8ieOAggoK546v5aKD5Y+Y6YeP6YWN572u77yI5Z2H5Y+v6YCJ77yM5Z2H5pyJ5ZCI55CG6buY6K6k5YC877yJ77yaCiAgQUNfS0VZV09SRFMgICDopoHor4bliKvnmoTmjInpkq7mloflrZfvvIzpgJflj7fliIbpmpTjgILpu5jorqQgIue7p+e7rSznu6fnu63nlJ/miJAs57un57ut5Zue5aSNIgogIEFDX0lOVEVSVkFMICAg5omr5o+P6Ze06ZqU56eS44CC6buY6K6kIDUKICBBQ19SRUdJT04gICAgIOaJq+aPj+WMuuWfnyAieCx5LHcsaCLvvIjnm7jlr7nlsY/luZXlt6bkuIrop5LvvInjgILpu5jorqTlhajlsY/vvIhOb25l77yJCiAgQUNfTUlOX0xFTiAgICDmjInpkq7mloflrZfmnIDlsI/plb/luqbov4fmu6TjgILpu5jorqQgMgogIEFDX01BWF9MRU4gICAg5oyJ6ZKu5paH5a2X5pyA5aSn6ZW/5bqm6L+H5ruk44CC6buY6K6kIDTvvIjov4fmu6TmraPmlofph4znmoQi57un57ut6K+75Y+W4oCmIumVv+WPpe+8iQoK5a6J5YWo77yacHlhdXRvZ3VpIEZBSUxTQUZFIOW8gOWQryDigJTigJQg5oqK6byg5qCH5oCl55Sp5Yiw5bGP5bmV5bem5LiK6KeS5Y2z5Y+v57Sn5oCl5YGc5q2i44CCCiIiIgppbXBvcnQgb3MKaW1wb3J0IHRlbXBmaWxlCmltcG9ydCB0aHJlYWRpbmcKaW1wb3J0IHRpbWUKCmZyb20gbWNwLnNlcnZlci5mYXN0bWNwIGltcG9ydCBGYXN0TUNQCgptY3AgPSBGYXN0TUNQKCJhdXRvY29udGludWUiKQoKU1RBVEUgPSB7CiAgICAicnVubmluZyI6IEZhbHNlLAogICAgInRocmVhZCI6IE5vbmUsCiAgICAib2NyIjogTm9uZSwKICAgICJ0aWNrIjogMCwKICAgICJsYXN0X2FjdGlvbiI6ICLmnKrlkK/liqgiLAogICAgImxhc3RfZGV0ZWN0IjogTm9uZSwKfQpMT0NLID0gdGhyZWFkaW5nLkxvY2soKQoKCmRlZiBfa2V5d29yZHMoKToKICAgICIiIuS7jueOr+Wig+WPmOmHj+ivu+WPluimgeivhuWIq+eahOaMiemSruaWh+Wtl+WIl+ihqOOAgiIiIgogICAgcmF3ID0gb3MuZW52aXJvbi5nZXQoIkFDX0tFWVdPUkRTIiwgIue7p+e7rSznu6fnu63nlJ/miJAs57un57ut5Zue5aSNIikKICAgIHJldHVybiBbay5zdHJpcCgpIGZvciBrIGluIHJhdy5zcGxpdCgiLCIpIGlmIGsuc3RyaXAoKV0KCgpkZWYgX2lzX2J0bih0ZXh0KToKICAgICIiIuWPquiupOeLrOeri+eahOOAjOe7p+e7reOAjeexu+aMiemSru+8jOW/veeVpeato+aWh+mHjOeahOmVv+WPpe+8iOWmgiLnu6fnu63or7vlj5blhbPplK7mlofku7Yi77yJ44CCIiIiCiAgICB0ID0gKHRleHQgb3IgIiIpLnN0cmlwKCkKICAgIGlmIG5vdCB0OgogICAgICAgIHJldHVybiBGYWxzZQogICAga3dzID0gX2tleXdvcmRzKCkKICAgIGlmIHQgaW4ga3dzOgogICAgICAgIHJldHVybiBUcnVlCiAgICBtaW5fbGVuID0gaW50KG9zLmVudmlyb24uZ2V0KCJBQ19NSU5fTEVOIiwgIjIiKSkKICAgIG1heF9sZW4gPSBpbnQob3MuZW52aXJvbi5nZXQoIkFDX01BWF9MRU4iLCAiNCIpKQogICAgcmV0dXJuIGFueShrIGluIHQgZm9yIGsgaW4ga3dzKSBhbmQgbWluX2xlbiA8PSBsZW4odCkgPD0gbWF4X2xlbgoKCmRlZiBfcmVnaW9uKCk6CiAgICAiIiLku47njq/looPlj5jph4/or7vlj5bmiavmj4/ljLrln5/vvIzmoLzlvI8gIngseSx3LGgi77yM5peg5pWI6L+U5ZueIE5vbmXvvIjlhajlsY/vvInjgIIiIiIKICAgIHIgPSBvcy5lbnZpcm9uLmdldCgiQUNfUkVHSU9OIikKICAgIGlmIG5vdCByOgogICAgICAgIHJldHVybiBOb25lCiAgICB0cnk6CiAgICAgICAgeCwgeSwgdywgaCA9IChpbnQodikgZm9yIHYgaW4gci5zcGxpdCgiLCIpKQogICAgICAgIHJldHVybiAoeCwgeSwgdywgaCkKICAgIGV4Y2VwdCBWYWx1ZUVycm9yOgogICAgICAgIHJldHVybiBOb25lCgoKZGVmIF9nZXRfb2NyKCk6CiAgICAiIiLmh5LliqDovb3lubbnvJPlrZggT0NSIOW8leaTju+8iOmmluasoei+g+aFou+8jOS8muWcqCBzdGFydCDml7bpooTng63vvInjgIIiIiIKICAgIGlmIFNUQVRFWyJvY3IiXSBpcyBOb25lOgogICAgICAgIGZyb20gcmFwaWRvY3Jfb25ueHJ1bnRpbWUgaW1wb3J0IFJhcGlkT0NSCiAgICAgICAgU1RBVEVbIm9jciJdID0gUmFwaWRPQ1IoKQogICAgcmV0dXJuIFNUQVRFWyJvY3IiXQoKCmRlZiBfc2Nhbl9vbmNlKCk6CiAgICAiIiLmiKrlm74gKyBPQ1LvvIzlkb3kuK3mjInpkq7ov5Tlm54gKGN4LCBjeSwgdGV4dCwgc2NvcmUp77yM5ZCm5YiZIE5vbmXjgILmiKrlm77lrZjns7vnu5/kuLTml7bnm67lvZXvvIznlKjlrozljbPliKDjgIIiIiIKICAgIGltcG9ydCBweWF1dG9ndWkKCiAgICByZWdpb24gPSBfcmVnaW9uKCkKICAgIGZkLCBwYXRoID0gdGVtcGZpbGUubWtzdGVtcChzdWZmaXg9Ii5wbmciLCBwcmVmaXg9ImFjX3Nob3RfIikKICAgIG9zLmNsb3NlKGZkKQogICAgdHJ5OgogICAgICAgIGlmIHJlZ2lvbjoKICAgICAgICAgICAgcHlhdXRvZ3VpLnNjcmVlbnNob3QocmVnaW9uPXJlZ2lvbikuc2F2ZShwYXRoKQogICAgICAgIGVsc2U6CiAgICAgICAgICAgIHB5YXV0b2d1aS5zY3JlZW5zaG90KCkuc2F2ZShwYXRoKQogICAgICAgIHJlcywgXyA9IF9nZXRfb2NyKCkocGF0aCkKICAgIGZpbmFsbHk6CiAgICAgICAgdHJ5OgogICAgICAgICAgICBvcy51bmxpbmsocGF0aCkKICAgICAgICBleGNlcHQgT1NFcnJvcjoKICAgICAgICAgICAgcGFzcwogICAgaWYgbm90IHJlczoKICAgICAgICByZXR1cm4gTm9uZQogICAgZm9yIGJveCwgdGV4dCwgc2NvcmUgaW4gcmVzOgogICAgICAgIGlmIF9pc19idG4odGV4dCk6CiAgICAgICAgICAgIHhzID0gW2Zsb2F0KHBbMF0pIGZvciBwIGluIGJveF0KICAgICAgICAgICAgeXMgPSBbZmxvYXQocFsxXSkgZm9yIHAgaW4gYm94XQogICAgICAgICAgICBjeCA9IGludChzdW0oeHMpIC8gbGVuKHhzKSkKICAgICAgICAgICAgY3kgPSBpbnQoc3VtKHlzKSAvIGxlbih5cykpCiAgICAgICAgICAgIHJldHVybiAoY3gsIGN5LCBzdHIodGV4dCksIGZsb2F0KHNjb3JlKSkKICAgIHJldHVybiBOb25lCgoKZGVmIF9sb29wKGludGVydmFsKToKICAgICIiIuWQjuWPsOW+queOr++8muaIquWbvuKGkk9DUuKGkuWRveS4reWImeeCueWHu++8jOebtOWIsOiiqyBzdG9wIOaIliBGQUlMU0FGRSDmiZPmlq3jgIIiIiIKICAgIGltcG9ydCBweWF1dG9ndWkKCiAgICBweWF1dG9ndWkuRkFJTFNBRkUgPSBUcnVlICAjIOm8oOagh+eUqeW3puS4iuinkuWPr+e0p+aApeWBnOatogogICAgd2hpbGUgVHJ1ZToKICAgICAgICB3aXRoIExPQ0s6CiAgICAgICAgICAgIGlmIG5vdCBTVEFURVsicnVubmluZyJdOgogICAgICAgICAgICAgICAgYnJlYWsKICAgICAgICB0cnk6CiAgICAgICAgICAgIGhpdCA9IF9zY2FuX29uY2UoKQogICAgICAgIGV4Y2VwdCBweWF1dG9ndWkuRmFpbFNhZmVFeGNlcHRpb246CiAgICAgICAgICAgIHdpdGggTE9DSzoKICAgICAgICAgICAgICAgIFNUQVRFWyJydW5uaW5nIl0gPSBGYWxzZQogICAgICAgICAgICAgICAgU1RBVEVbImxhc3RfYWN0aW9uIl0gPSAi6Kem5Y+RIEZBSUxTQUZF77yM5bey57Sn5oCl5YGc5q2iIgogICAgICAgICAgICBicmVhawogICAgICAgIHdpdGggTE9DSzoKICAgICAgICAgICAgU1RBVEVbInRpY2siXSArPSAxCiAgICAgICAgICAgIGlmIGhpdDoKICAgICAgICAgICAgICAgIGN4LCBjeSwgdHh0LCBzYyA9IGhpdAogICAgICAgICAgICAgICAgdHJ5OgogICAgICAgICAgICAgICAgICAgIHB5YXV0b2d1aS5jbGljayhjeCwgY3kpCiAgICAgICAgICAgICAgICAgICAgU1RBVEVbImxhc3RfYWN0aW9uIl0gPSAoCiAgICAgICAgICAgICAgICAgICAgICAgIGYi56yse1NUQVRFWyd0aWNrJ1195qyh5omr5o+P5ZG95Lit44CMe3R4dH3jgI0iCiAgICAgICAgICAgICAgICAgICAgICAgIGYic2NvcmU9e3NjOi4yZn3ihpLlt7Lngrnlh7soe2N4fSx7Y3l9KSIKICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAgICAgU1RBVEVbImxhc3RfZGV0ZWN0Il0gPSAoY3gsIGN5LCB0eHQpCiAgICAgICAgICAgICAgICBleGNlcHQgcHlhdXRvZ3VpLkZhaWxTYWZlRXhjZXB0aW9uOgogICAgICAgICAgICAgICAgICAgIFNUQVRFWyJydW5uaW5nIl0gPSBGYWxzZQogICAgICAgICAgICAgICAgICAgIFNUQVRFWyJsYXN0X2FjdGlvbiJdID0gIuinpuWPkSBGQUlMU0FGRe+8jOW3sue0p+aApeWBnOatoiIKICAgICAgICAgICAgICAgICAgICBicmVhawogICAgICAgICAgICBlbHNlOgogICAgICAgICAgICAgICAgU1RBVEVbImxhc3RfYWN0aW9uIl0gPSBmIuesrHtTVEFURVsndGljayddfeasoeaJq+aPj++8muacquajgOa1i+WIsOe7p+e7reaMiemSriIKICAgICAgICAgICAgICAgIFNUQVRFWyJsYXN0X2RldGVjdCJdID0gTm9uZQogICAgICAgIHRpbWUuc2xlZXAoaW50ZXJ2YWwpCgoKQG1jcC50b29sKCkKZGVmIGF1dG9jb250aW51ZV9zdGFydChpbnRlcnZhbDogZmxvYXQgPSA1LjApIC0+IHN0cjoKICAgICIiIuWQr+WKqOOAjOaXoOmZkOe7reWGmeOAjeebkeW3pe+8muW+queOr+aJq+aPj+Wxj+W5le+8jEFJIOe9kemhteS4gOWHuueOsOeLrOeri+eahOOAjOe7p+e7reOAjeaMiemSruWwseiHquWKqOeCueWHu++8jAogICAg55u05Yiw6LCD55SoIGF1dG9jb250aW51ZV9zdG9wIOaIluaKium8oOagh+eUqeWIsOWxj+W5leW3puS4iuinkue0p+aApeWBnOatouOAggogICAgaW50ZXJ2YWw6IOaJq+aPj+mXtOmalOenku+8iOm7mOiupCA177yM5Lmf5Y+v55So546v5aKD5Y+Y6YePIEFDX0lOVEVSVkFMIOimhueblu+8ieOAgiIiIgogICAgd2l0aCBMT0NLOgogICAgICAgIGlmIFNUQVRFWyJydW5uaW5nIl06CiAgICAgICAgICAgIHJldHVybiAi5peg6ZmQ57ut5YaZ55uR5bel5bey5Zyo6L+Q6KGM5LitIgogICAgICAgIGl2ID0gaW50ZXJ2YWwgaWYgaW50ZXJ2YWwgYW5kIGludGVydmFsID4gMCBlbHNlIGZsb2F0KAogICAgICAgICAgICBvcy5lbnZpcm9uLmdldCgiQUNfSU5URVJWQUwiLCAiNSIpCiAgICAgICAgKQogICAgICAgIFNUQVRFWyJydW5uaW5nIl0gPSBUcnVlCiAgICAgICAgU1RBVEVbInRocmVhZCJdID0gdGhyZWFkaW5nLlRocmVhZCgKICAgICAgICAgICAgdGFyZ2V0PV9sb29wLCBhcmdzPShpdiwpLCBkYWVtb249VHJ1ZQogICAgICAgICkKICAgICAgICBTVEFURVsidGhyZWFkIl0uc3RhcnQoKQogICAgdHJ5OgogICAgICAgIF9nZXRfb2NyKCkgICMg6aKE54OtIE9DUiDmqKHlnovvvIjpppbmrKHovoPmhaLvvIkKICAgIGV4Y2VwdCBFeGNlcHRpb24gYXMgZToKICAgICAgICByZXR1cm4gZiLlt7LlkK/liqjkvYYgT0NSIOmihOeDreWksei0pe+8mntlfSIKICAgIHJldHVybiBmIuaXoOmZkOe7reWGmeebkeW3peW3suWQr+WKqO+8jOavjyB7aXZ9IOenkuaJq+aPj+S4gOasoeOAgkFJIOe9kemhteS4gOWBnOWwseiHquWKqOeCuee7p+e7reOAgiIKCgpAbWNwLnRvb2woKQpkZWYgYXV0b2NvbnRpbnVlX3N0b3AoKSAtPiBzdHI6CiAgICAiIiLlgZzmraLml6DpmZDnu63lhpnnm5Hlt6XjgIIiIiIKICAgIHdpdGggTE9DSzoKICAgICAgICBpZiBub3QgU1RBVEVbInJ1bm5pbmciXToKICAgICAgICAgICAgcmV0dXJuICLnm5Hlt6XmnKzmnaXlsLHmsqHlnKjov5DooYwiCiAgICAgICAgU1RBVEVbInJ1bm5pbmciXSA9IEZhbHNlCiAgICByZXR1cm4gIuW3suWBnOatouaXoOmZkOe7reWGmeebkeW3peOAgiIKCgpAbWNwLnRvb2woKQpkZWYgYXV0b2NvbnRpbnVlX3N0YXR1cygpIC0+IGRpY3Q6CiAgICAiIiLov5Tlm57nm5Hlt6XnirbmgIHvvJrmmK/lkKblnKjot5HjgIHmiavmj4/mrKHmlbDjgIHmnIDov5HliqjkvZzjgIHmnIDov5Hmo4DmtYvliLDnmoTmjInpkq7jgIIiIiIKICAgIHdpdGggTE9DSzoKICAgICAgICByZXR1cm4gewogICAgICAgICAgICAicnVubmluZyI6IFNUQVRFWyJydW5uaW5nIl0sCiAgICAgICAgICAgICJ0aWNrIjogU1RBVEVbInRpY2siXSwKICAgICAgICAgICAgImxhc3RfYWN0aW9uIjogU1RBVEVbImxhc3RfYWN0aW9uIl0sCiAgICAgICAgICAgICJsYXN0X2RldGVjdCI6IFNUQVRFWyJsYXN0X2RldGVjdCJdLAogICAgICAgIH0KCgpAbWNwLnRvb2woKQpkZWYgYXV0b2NvbnRpbnVlX3NjYW5fb25jZSgpIC0+IGRpY3Q6CiAgICAiIiLljZXmrKHmiavmj4/vvJrmo4DmtYvlsY/luZXmmK/lkKbmnInjgIznu6fnu63jgI3mjInpkq7vvIzmnInliJnngrnlh7vlubbov5Tlm57lkb3kuK3kv6Hmga/vvIzml6DliJnov5Tlm57mnKrop6blj5HjgIIiIiIKICAgIGhpdCA9IF9zY2FuX29uY2UoKQogICAgaWYgaGl0OgogICAgICAgIGltcG9ydCBweWF1dG9ndWkKCiAgICAgICAgY3gsIGN5LCB0eHQsIHNjID0gaGl0CiAgICAgICAgcHlhdXRvZ3VpLmNsaWNrKGN4LCBjeSkKICAgICAgICByZXR1cm4geyJjbGlja2VkIjogVHJ1ZSwgInRleHQiOiB0eHQsICJzY29yZSI6IHNjLCAiYXQiOiAoY3gsIGN5KX0KICAgIHJldHVybiB7ImNsaWNrZWQiOiBGYWxzZSwgInRleHQiOiBOb25lfQoKCmlmIF9fbmFtZV9fID09ICJfX21haW5fXyI6CiAgICBtY3AucnVuKCkK
+"""
+autocontinue-mcp — 无限续写监工 MCP Server
+无限续写监工：自动点击任意 AI 网页上中断后弹出的「继续」按钮，
+让被中断的长生成自动续写，循环盯死，像监工一样。
+
+Stack: FastMCP + pyautogui + rapidocr-onnxruntime
+pyautogui / rapidocr 延迟导入，无桌面环境也能加载（只是无法真正点击）。
+
+环境变量配置（均可选，均有合理默认值）：
+  AC_KEYWORDS   要识别的按钮文字，逗号分隔。默认 "继续,继续生成,继续回复"
+  AC_INTERVAL   扫描间隔秒。默认 5
+  AC_REGION     扫描区域 "x,y,w,h"（相对屏幕左上角）。默认全屏（None）
+  AC_MIN_LEN    按钮文字最小长度过滤。默认 2
+  AC_MAX_LEN    按钮文字最大长度过滤。默认 4（过滤正文里的"继续读取…"长句）
+
+安全：pyautogui FAILSAFE 开启 —— 把鼠标急甩到屏幕左上角即可紧急停止。
+"""
+import os
+import tempfile
+import threading
+import time
+
+from mcp.server.fastmcp import FastMCP
+
+mcp = FastMCP("autocontinue")
+
+STATE = {
+    "running": False,
+    "thread": None,
+    "ocr": None,
+    "tick": 0,
+    "last_action": "未启动",
+    "last_detect": None,
+}
+LOCK = threading.Lock()
+
+
+def _keywords():
+    """从环境变量读取要识别的按钮文字列表。"""
+    raw = os.environ.get("AC_KEYWORDS", "继续,继续生成,继续回复")
+    return [k.strip() for k in raw.split(",") if k.strip()]
+
+
+def _is_btn(text):
+    """只认独立的「继续」类按钮，忽略正文里的长句（如"继续读取关键文件"）。"""
+    t = (text or "").strip()
+    if not t:
+        return False
+    kws = _keywords()
+    if t in kws:
+        return True
+    min_len = int(os.environ.get("AC_MIN_LEN", "2"))
+    max_len = int(os.environ.get("AC_MAX_LEN", "4"))
+    return any(k in t for k in kws) and min_len <= len(t) <= max_len
+
+
+def _region():
+    """从环境变量读取扫描区域，格式 "x,y,w,h"，无效返回 None（全屏）。"""
+    r = os.environ.get("AC_REGION")
+    if not r:
+        return None
+    try:
+        x, y, w, h = (int(v) for v in r.split(","))
+        return (x, y, w, h)
+    except ValueError:
+        return None
+
+
+def _get_ocr():
+    """懒加载并缓存 OCR 引擎（首次较慢，会在 start 时预热）。"""
+    if STATE["ocr"] is None:
+        from rapidocr_onnxruntime import RapidOCR
+        STATE["ocr"] = RapidOCR()
+    return STATE["ocr"]
+
+
+def _scan_once():
+    """截图 + OCR，命中按钮返回 (cx, cy, text, score)，否则 None。截图存系统临时目录，用完即删。"""
+    import pyautogui
+
+    region = _region()
+    fd, path = tempfile.mkstemp(suffix=".png", prefix="ac_shot_")
+    os.close(fd)
+    try:
+        if region:
+            pyautogui.screenshot(region=region).save(path)
+        else:
+            pyautogui.screenshot().save(path)
+        res, _ = _get_ocr()(path)
+    finally:
+        try:
+            os.unlink(path)
+        except OSError:
+            pass
+    if not res:
+        return None
+    for box, text, score in res:
+        if _is_btn(text):
+            xs = [float(p[0]) for p in box]
+            ys = [float(p[1]) for p in box]
+            cx = int(sum(xs) / len(xs))
+            cy = int(sum(ys) / len(ys))
+            return (cx, cy, str(text), float(score))
+    return None
+
+
+def _loop(interval):
+    """后台循环：截图→OCR→命中则点击，直到被 stop 或 FAILSAFE 打断。"""
+    import pyautogui
+
+    pyautogui.FAILSAFE = True  # 鼠标甩左上角可紧急停止
+    while True:
+        with LOCK:
+            if not STATE["running"]:
+                break
+        try:
+            hit = _scan_once()
+        except pyautogui.FailSafeException:
+            with LOCK:
+                STATE["running"] = False
+                STATE["last_action"] = "触发 FAILSAFE，已紧急停止"
+            break
+        with LOCK:
+            STATE["tick"] += 1
+            if hit:
+                cx, cy, txt, sc = hit
+                try:
+                    pyautogui.click(cx, cy)
+                    STATE["last_action"] = (
+                        f"第{STATE['tick']}次扫描命中「{txt}」"
+                        f"score={sc:.2f}→已点击({cx},{cy})"
+                    )
+                    STATE["last_detect"] = (cx, cy, txt)
+                except pyautogui.FailSafeException:
+                    STATE["running"] = False
+                    STATE["last_action"] = "触发 FAILSAFE，已紧急停止"
+                    break
+            else:
+                STATE["last_action"] = f"第{STATE['tick']}次扫描：未检测到继续按钮"
+                STATE["last_detect"] = None
+        time.sleep(interval)
+
+
+@mcp.tool()
+def autocontinue_start(interval: float = 5.0) -> str:
+    """启动「无限续写」监工：循环扫描屏幕，AI 网页一出现独立的「继续」按钮就自动点击，
+    直到调用 autocontinue_stop 或把鼠标甩到屏幕左上角紧急停止。
+    interval: 扫描间隔秒（默认 5，也可用环境变量 AC_INTERVAL 覆盖）。"""
+    with LOCK:
+        if STATE["running"]:
+            return "无限续写监工已在运行中"
+        iv = interval if interval and interval > 0 else float(
+            os.environ.get("AC_INTERVAL", "5")
+        )
+        STATE["running"] = True
+        STATE["thread"] = threading.Thread(
+            target=_loop, args=(iv,), daemon=True
+        )
+        STATE["thread"].start()
+    try:
+        _get_ocr()  # 预热 OCR 模型（首次较慢）
+    except Exception as e:
+        return f"已启动但 OCR 预热失败：{e}"
+    return f"无限续写监工已启动，每 {iv} 秒扫描一次。AI 网页一停就自动点继续。"
+
+
+@mcp.tool()
+def autocontinue_stop() -> str:
+    """停止无限续写监工。"""
+    with LOCK:
+        if not STATE["running"]:
+            return "监工本来就没在运行"
+        STATE["running"] = False
+    return "已停止无限续写监工。"
+
+
+@mcp.tool()
+def autocontinue_status() -> dict:
+    """返回监工状态：是否在跑、扫描次数、最近动作、最近检测到的按钮。"""
+    with LOCK:
+        return {
+            "running": STATE["running"],
+            "tick": STATE["tick"],
+            "last_action": STATE["last_action"],
+            "last_detect": STATE["last_detect"],
+        }
+
+
+@mcp.tool()
+def autocontinue_scan_once() -> dict:
+    """单次扫描：检测屏幕是否有「继续」按钮，有则点击并返回命中信息，无则返回未触发。"""
+    hit = _scan_once()
+    if hit:
+        import pyautogui
+
+        cx, cy, txt, sc = hit
+        pyautogui.click(cx, cy)
+        return {"clicked": True, "text": txt, "score": sc, "at": (cx, cy)}
+    return {"clicked": False, "text": None}
+
+
+if __name__ == "__main__":
+    mcp.run()

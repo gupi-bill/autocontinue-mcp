@@ -1,1 +1,96 @@
-IiIiYXV0b2NvbnRpbnVlLW1jcCDln7rnoYDljZXlhYPmtYvor5XjgIIiIiIKaW1wb3J0IG9zCmZyb20gdW5pdHRlc3QubW9jayBpbXBvcnQgTWFnaWNNb2NrLCBwYXRjaAoKCmRlZiB0ZXN0X2tleXdvcmRzX3BhcnNpbmcoKToKICAgICIiIueOr+Wig+WPmOmHj+ino+aekOWFs+mUruivjeWIl+ihqOOAgiIiIgogICAgb3MuZW52aXJvblsiQUNfS0VZV09SRFMiXSA9ICJjb250aW51ZSxyZXN1bWUsa2VlcCIKICAgIGZyb20gc2VydmVyIGltcG9ydCBfa2V5d29yZHMKICAgIGFzc2VydCBfa2V5d29yZHMoKSA9PSBbImNvbnRpbnVlIiwgInJlc3VtZSIsICJrZWVwIl0KCiAgICBvcy5lbnZpcm9uWyJBQ19LRVlXT1JEUyJdID0gIlJlc3VtZSxDb250aW51ZSIKICAgIGFzc2VydCBfa2V5d29yZHMoKSA9PSBbIlJlc3VtZSIsICJDb250aW51ZSJdCgoKZGVmIHRlc3RfaXNfYnRuX2Jhc2ljKCk6CiAgICAiIiLmjInpkq7or4bliKvvvJrnsr7noa7ljLnphY3pgJrov4fvvIzplb/lj6Xov4fmu6TmjonjgIIiIiIKICAgIG9zLmVudmlyb25bIkFDX0tFWVdPUkRTIl0gPSAiY29udGludWUscmVzdW1lIgogICAgIyBSZS1pbXBvcnQgdG8gcGljayB1cCBuZXcgZW52CiAgICBpbXBvcnQgaW1wb3J0bGliCgogICAgaW1wb3J0IHNlcnZlcgogICAgaW1wb3J0bGliLnJlbG9hZChzZXJ2ZXIpCgogICAgYXNzZXJ0IHNlcnZlci5faXNfYnRuKCJjb250aW51ZSIpIGlzIFRydWUKICAgIGFzc2VydCBzZXJ2ZXIuX2lzX2J0bigicmVzdW1lIikgaXMgVHJ1ZQogICAgYXNzZXJ0IHNlcnZlci5faXNfYnRuKCJjb250aW51ZSByZWFkaW5nIHRoZSBkb2N1bWVudCIpIGlzIEZhbHNlCiAgICBhc3NlcnQgc2VydmVyLl9pc19idG4oIiIpIGlzIEZhbHNlCiAgICBhc3NlcnQgc2VydmVyLl9pc19idG4oTm9uZSkgaXMgRmFsc2UKCgpkZWYgdGVzdF9yZWdpb25fcGFyc2luZygpOgogICAgIiIi5omr5o+P5Yy65Z+f6Kej5p6Q44CCIiIiCiAgICBvcy5lbnZpcm9uLnBvcCgiQUNfUkVHSU9OIiwgTm9uZSkKICAgIGltcG9ydCBpbXBvcnRsaWIKCiAgICBpbXBvcnQgc2VydmVyCiAgICBpbXBvcnRsaWIucmVsb2FkKHNlcnZlcikKCiAgICBhc3NlcnQgc2VydmVyLl9yZWdpb24oKSBpcyBOb25lCgogICAgb3MuZW52aXJvblsiQUNfUkVHSU9OIl0gPSAiMTAwLDIwMCw1MDAsNDAwIgogICAgaW1wb3J0bGliLnJlbG9hZChzZXJ2ZXIpCiAgICBhc3NlcnQgc2VydmVyLl9yZWdpb24oKSA9PSAoMTAwLCAyMDAsIDUwMCwgNDAwKQoKICAgIG9zLmVudmlyb25bIkFDX1JFR0lPTiJdID0gImludmFsaWQiCiAgICBpbXBvcnRsaWIucmVsb2FkKHNlcnZlcikKICAgIGFzc2VydCBzZXJ2ZXIuX3JlZ2lvbigpIGlzIE5vbmUKCgpkZWYgdGVzdF9zY2FuX29uY2Vfbm9fb2NyKCk6CiAgICAiIiLml6AgT0NSIOaXtiBfc2Nhbl9vbmNlIOi/lOWbniBOb25lIOiAjOS4jeaYr+aKm+W8guW4uOOAgiIiIgogICAgaW1wb3J0IHNlcnZlcgogICAgc2VydmVyLlNUQVRFWyJvY3IiXSA9IE5vbmUKICAgIG9zLmVudmlyb25bIkFDX0tFWVdPUkRTIl0gPSAiY29udGludWUiCgogICAgbW9ja19vY3IgPSBNYWdpY01vY2socmV0dXJuX3ZhbHVlPShOb25lLCBOb25lKSkKICAgIHdpdGggcGF0Y2goInNlcnZlci5fZ2V0X29jciIsIHJldHVybl92YWx1ZT1tb2NrX29jcik6CiAgICAgICAgcmVzdWx0ID0gc2VydmVyLl9zY2FuX29uY2UoKQogICAgICAgIGFzc2VydCByZXN1bHQgaXMgTm9uZQogICAgICAgIG1vY2tfb2NyLmFzc2VydF9jYWxsZWRfb25jZSgpCgoKZGVmIHRlc3RfbG9vcF9zdGFydF9zdG9wKCk6CiAgICAiIiLnm5Hlt6XlkK/liqjlkozlgZzmraLjgIIiIiIKICAgIGltcG9ydCBzZXJ2ZXIKICAgIGFzc2VydCBzZXJ2ZXIuU1RBVEVbInJ1bm5pbmciXSBpcyBGYWxzZQoKICAgIHdpdGggcGF0Y2goInNlcnZlci5fZ2V0X29jciIpLCBwYXRjaCgic2VydmVyLl9sb29wIikgYXMgbW9ja19sb29wOgogICAgICAgIHJlc3VsdCA9IHNlcnZlci5hdXRvY29udGludWVfc3RhcnQoaW50ZXJ2YWw9MS4wKQogICAgICAgIGFzc2VydCAi5bey5ZCv5YqoIiBpbiByZXN1bHQKICAgICAgICBtb2NrX2xvb3AuYXNzZXJ0X2NhbGxlZF9vbmNlKCkKCiAgICBzZXJ2ZXIuU1RBVEVbInJ1bm5pbmciXSA9IFRydWUKICAgIHJlc3VsdCA9IHNlcnZlci5hdXRvY29udGludWVfc3RvcCgpCiAgICBhc3NlcnQgIuW3suWBnOatoiIgaW4gcmVzdWx0CiAgICBhc3NlcnQgc2VydmVyLlNUQVRFWyJydW5uaW5nIl0gaXMgRmFsc2UKCiAgICByZXN1bHQgPSBzZXJ2ZXIuYXV0b2NvbnRpbnVlX3N0b3AoKQogICAgYXNzZXJ0ICLmsqHlnKjov5DooYwiIGluIHJlc3VsdAoKCmRlZiB0ZXN0X3N0YXR1c19yZXR1cm5zX2RpY3QoKToKICAgICIiInN0YXR1cyDlt6Xlhbfov5Tlm57mraPnoa7moLzlvI/jgIIiIiIKICAgIGltcG9ydCBzZXJ2ZXIKICAgIHNlcnZlci5TVEFURVsicnVubmluZyJdID0gVHJ1ZQogICAgc2VydmVyLlNUQVRFWyJ0aWNrIl0gPSA1CiAgICBzZXJ2ZXIuU1RBVEVbImxhc3RfYWN0aW9uIl0gPSAidGVzdCIKICAgIHNlcnZlci5TVEFURVsibGFzdF9kZXRlY3QiXSA9ICgxMDAsIDIwMCwgImNvbnQiKQoKICAgIHN0YXR1cyA9IHNlcnZlci5hdXRvY29udGludWVfc3RhdHVzKCkKICAgIGFzc2VydCBpc2luc3RhbmNlKHN0YXR1cywgZGljdCkKICAgIGFzc2VydCBzdGF0dXNbInJ1bm5pbmciXSBpcyBUcnVlCiAgICBhc3NlcnQgc3RhdHVzWyJ0aWNrIl0gPT0gNQogICAgYXNzZXJ0IHN0YXR1c1sibGFzdF9hY3Rpb24iXSA9PSAidGVzdCIKICAgIGFzc2VydCBzdGF0dXNbImxhc3RfZGV0ZWN0Il0gPT0gKDEwMCwgMjAwLCAiY29udCIpCg==
+"""autocontinue-mcp 基础单元测试。"""
+import os
+from unittest.mock import MagicMock, patch
+
+
+def test_keywords_parsing():
+    """环境变量解析关键词列表。"""
+    os.environ["AC_KEYWORDS"] = "continue,resume,keep"
+    from server import _keywords
+    assert _keywords() == ["continue", "resume", "keep"]
+
+    os.environ["AC_KEYWORDS"] = "Resume,Continue"
+    assert _keywords() == ["Resume", "Continue"]
+
+
+def test_is_btn_basic():
+    """按钮识别：精确匹配通过，长句过滤掉。"""
+    os.environ["AC_KEYWORDS"] = "continue,resume"
+    # Re-import to pick up new env
+    import importlib
+
+    import server
+    importlib.reload(server)
+
+    assert server._is_btn("continue") is True
+    assert server._is_btn("resume") is True
+    assert server._is_btn("continue reading the document") is False
+    assert server._is_btn("") is False
+    assert server._is_btn(None) is False
+
+
+def test_region_parsing():
+    """扫描区域解析。"""
+    os.environ.pop("AC_REGION", None)
+    import importlib
+
+    import server
+    importlib.reload(server)
+
+    assert server._region() is None
+
+    os.environ["AC_REGION"] = "100,200,500,400"
+    importlib.reload(server)
+    assert server._region() == (100, 200, 500, 400)
+
+    os.environ["AC_REGION"] = "invalid"
+    importlib.reload(server)
+    assert server._region() is None
+
+
+def test_scan_once_no_ocr():
+    """无 OCR 时 _scan_once 返回 None 而不是抛异常。"""
+    import server
+    server.STATE["ocr"] = None
+    os.environ["AC_KEYWORDS"] = "continue"
+
+    mock_ocr = MagicMock(return_value=(None, None))
+    with patch("server._get_ocr", return_value=mock_ocr):
+        result = server._scan_once()
+        assert result is None
+        mock_ocr.assert_called_once()
+
+
+def test_loop_start_stop():
+    """监工启动和停止。"""
+    import server
+    assert server.STATE["running"] is False
+
+    with patch("server._get_ocr"), patch("server._loop") as mock_loop:
+        result = server.autocontinue_start(interval=1.0)
+        assert "已启动" in result
+        mock_loop.assert_called_once()
+
+    server.STATE["running"] = True
+    result = server.autocontinue_stop()
+    assert "已停止" in result
+    assert server.STATE["running"] is False
+
+    result = server.autocontinue_stop()
+    assert "没在运行" in result
+
+
+def test_status_returns_dict():
+    """status 工具返回正确格式。"""
+    import server
+    server.STATE["running"] = True
+    server.STATE["tick"] = 5
+    server.STATE["last_action"] = "test"
+    server.STATE["last_detect"] = (100, 200, "cont")
+
+    status = server.autocontinue_status()
+    assert isinstance(status, dict)
+    assert status["running"] is True
+    assert status["tick"] == 5
+    assert status["last_action"] == "test"
+    assert status["last_detect"] == (100, 200, "cont")
