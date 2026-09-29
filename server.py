@@ -20,9 +20,24 @@ import tempfile
 import threading
 import time
 
-from mcp.server.fastmcp import FastMCP
+try:
+    from mcp.server.fastmcp import FastMCP
 
-mcp = FastMCP("autocontinue")
+    mcp = FastMCP("autocontinue")
+except ImportError:  # 允许在没装 mcp 的环境里 import 本模块（跑单元测试用）
+    class _NoopMCP:
+        """没有装 mcp 时的占位：装饰器变空操作，函数仍是普通函数可被测试。"""
+
+        def tool(self, *a, **kw):
+            def deco(fn):
+                return fn
+
+            return deco
+
+        def run(self, *a, **kw):
+            raise SystemExit("需要先安装依赖： pip install -r requirements.txt")
+
+    mcp = _NoopMCP()
 
 STATE = {
     "running": False,
@@ -75,18 +90,28 @@ def _get_ocr():
 
 
 def _scan_once():
-    """截图 + OCR，命中按钮返回 (cx, cy, text, score)，否则 None。截图存系统临时目录，用完即删。"""
-    import pyautogui
+    """截图 + OCR，命中按钮返回 (cx, cy, text, score)，否则 None。
+
+    截图存系统临时目录，用完即删。
+    无桌面环境（服务器 / 容器 / CI）没有 pyautogui 时返回 None，不抛异常。
+    """
+    try:
+        import pyautogui
+    except ImportError:
+        return None  # 无桌面环境，扫不了
 
     region = _region()
     fd, path = tempfile.mkstemp(suffix=".png", prefix="ac_shot_")
     os.close(fd)
+    res = None  # 初始化：下面任何一步失败都不该变成 UnboundLocalError
     try:
         if region:
             pyautogui.screenshot(region=region).save(path)
         else:
             pyautogui.screenshot().save(path)
         res, _ = _get_ocr()(path)
+    except Exception:
+        return None
     finally:
         try:
             os.unlink(path)
@@ -106,16 +131,24 @@ def _scan_once():
 
 def _loop(interval):
     """后台循环：截图→OCR→命中则点击，直到被 stop 或 FAILSAFE 打断。"""
-    import pyautogui
+    try:
+        import pyautogui
+    except ImportError:
+        with LOCK:
+            STATE["running"] = False
+            STATE["last_action"] = "没有 pyautogui（无桌面环境），已退出"
+        return
 
     pyautogui.FAILSAFE = True  # 鼠标甩左上角可紧急停止
+    # 没有 pyautogui 时下面 except 子句会 NameError，所以先兜一个基类
+    failsafe = getattr(pyautogui, "FailSafeException", Exception)
     while True:
         with LOCK:
             if not STATE["running"]:
                 break
         try:
             hit = _scan_once()
-        except pyautogui.FailSafeException:
+        except failsafe:
             with LOCK:
                 STATE["running"] = False
                 STATE["last_action"] = "触发 FAILSAFE，已紧急停止"
@@ -131,7 +164,7 @@ def _loop(interval):
                         f"score={sc:.2f}→已点击({cx},{cy})"
                     )
                     STATE["last_detect"] = (cx, cy, txt)
-                except pyautogui.FailSafeException:
+                except failsafe:
                     STATE["running"] = False
                     STATE["last_action"] = "触发 FAILSAFE，已紧急停止"
                     break
