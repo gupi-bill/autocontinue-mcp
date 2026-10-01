@@ -1,0 +1,46 @@
+name: ci
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python: ['3.10', '3.12', '3.13']
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+
+      # 不装 mcp / pyautogui / rapidocr。
+      # server.py 对它们全部做了软依赖，测试必须在「都没装」的
+      # 环境下也能跑 —— 服务器、容器、CI 就是这种环境。
+      - name: 单元测试
+        run: python -m unittest test_server -v
+
+      - name: 无桌面环境下必须能加载
+        run: |
+          python -c "import server; print('✓ server 在无桌面环境可导入')"
+          python -c "import server; assert server.mcp is not None; print('✓ mcp 占位可用')"
+
+      - name: 运行 MCP 服务时缺依赖要说人话
+        run: |
+          set +e
+          python server.py >/dev/null 2>&1
+          code=$?
+          set -e
+          test "$code" -ne 0 || { echo "::error::缺 mcp 时应非零退出"; exit 1; }
+          echo "✓ 缺依赖时退出码非零"
+
+      - name: 确认没有 __pycache__ 进库
+        run: |
+          git ls-files | grep -q '__pycache__' && {
+            echo "::error::__pycache__ 被跟踪了"; exit 1; }
+          echo "✓ 仓库卫生正常"
